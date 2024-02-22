@@ -8,7 +8,7 @@ import * as random from 'maath/random';
 // ---------------------------------------------------------------------------------------------
 
 const Stars = ({ ...props }) => {
-  const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.2 }));
+  const [sphere] = useState(() => random.inSphere(new Float64Array(5000), { radius: 1.2 }));
 
   const ref = useRef<any>();
 
