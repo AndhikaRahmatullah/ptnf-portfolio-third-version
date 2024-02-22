@@ -1,5 +1,3 @@
-'use client';
-
 // components
 import { ComputersCanvas } from 'src/components/canvas';
 
